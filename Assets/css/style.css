@@ -1,3 +1,4 @@
+/*This is the header format to have the page in line*/
 header {
     padding: 20px;
     text-align: left;
@@ -57,6 +58,7 @@ body {
   background-color: rgba(178, 208, 248, 0.137);
 }
 
+/*This section allows for the top image of the page to be displayed like a banner*/
 .hero {
   height: 200px;
   width: 100%;
@@ -64,10 +66,13 @@ body {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
+  /*The filter allows the image to take on a hue over the normal image.*/
   filter: sepia(300%) hue-rotate(150deg) saturate(450%);
   linear-gradient:(0deg, rgba(0, 41, 63, 0.5), rgba(0, 123, 195, 0.5));
 }
+/*CSS for banner image*/
 
+/*This section is for the Work portion of the page.*/
 .container{
   display: flex;
   flex-wrap: wrap;
@@ -81,8 +86,9 @@ body {
 .flexitem img{
   width: 300px;
 }
+/*CSS for Work Section Above*/
 
-/*New CSS for About Me*/
+/*CSS for About Me with stylization.*/
 .aboutme {
   border: 1px none rgba(0, 0, 0, 0.473);
   display: flex;
@@ -112,9 +118,9 @@ body {
   font-size: large;
 }
 
-/*New CSS for About Me^*/
+/*CSS for About Me^*/
 
-/*New CSS for Work*/
+/* Below is the css for the work section of the code.*/
 
 .work {
   border: 1px none rgba(0, 0, 0, 0.473);
@@ -151,65 +157,9 @@ body {
   font-size: 30px;
   color: #25265f;
 }
-/*New CSS for Work ^*/
+/* CSS for Work Portion of the code ^*/
 
-/* .apps {
-  flex: 1;
-  background-color: var(--white);
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.maincard > img{
-  width: 100%;
-}
-
-.grid2x2 {
-  min-height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.grid2x2 > div {
-display: flex;
-flex-basis: calc(50% - 40%);
-justify-content: center;
-flex-direction: column;
-}
-
-.grid2x2 > div > div {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.card {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: var(--border-radius);
-  padding: 10px;
-  flex: 0 0 300px;
-  margin: 20px;
-}
-
-.card > header {
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
-  padding: 20px;
-}
-
-.card > p {
-  text-align: left;
-}
-
-.card > img {
-  width: 100%;
-} */
-
-/*New CSS*/
-
+/*This below set of code allows for the Contact section of the page to function with its stylization.*/
 .contactme {
   border: 1px none rgba(0, 0, 0, 0.473);
   display: flex;
@@ -245,15 +195,12 @@ flex-direction: column;
   font-size: 30px;
   color: #25265f;
 }
+/*Contact Section CSS Above*/
 
-/*New CSS ^*/
-
+/*This allows the screen to move the items within the web page and format it to smaller screens ^*/
 @media screen and (max-width: 768px) {
   main,
   nav {
     flex-direction: column;
   }
 }
-
-
-/*    background: #1abc9c;*/

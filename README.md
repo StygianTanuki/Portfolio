@@ -5,4 +5,4 @@ This website was created to help display information of myself and the knowledge
 
 ## Usage
 
-![Screenshot of Website](./assets/images/_C__Users_Felix_Documents_UCF_Homework_Homework%25202_Portfolio_index.html.png)
+![Screenshot of Website](./Assets/images/_C__Users_Felix_Documents_UCF_Homework_Homework_2_Portfolio_index.html.png)

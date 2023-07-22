@@ -1,70 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/css/reset.css">
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <title>Portfolio</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css"> 
 
+    <title Portfolio ></title>
+  </head>
+
+    <body>
 <!--This top section is for the header. This allows me to make connections to each section when you press each linked field-->
-<body>
     <header>
-        <h1>Felix Rivera</h1>
-        <nav>
-          <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-          </ul>
-        </nav>
+      <h1 class="main-header">Felix Rivera</h1>
+      <section class="topnav">
+        <a href="#about-me">About Me</a>
+        <a href="#work-header">Work</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="#resume">Resume</a>
+      </section>
     </header>
 
-    <figure class="hero"></figure>
-
-<main>
 <!--This is the About Me section of the page.-->
-       <section class="aboutme" id="about-me">
-        <div class="myself">
-          <h2>About Me</h2>
-        </div>  
-          <div class="meabout">          
-            <p>I am an up and coming coder that is constantly branching out my knowledge in order to deliver the best that I can. This portfolio is just a small bit of the knowledge that I have learned through my studies.</p>          
-          </div>
-      </section>
-
-      <!--This is the work section of the page.-->
-      <section class="work" id="#work">
-        <div class="workinfo">
-          <h2>Work</h2>
-        </div>
-
-        <div class="projects">
-          <a></a>
-        </div>
-      </section>
-
-
-      <!--This is the Contact Me section-->
-    <section class="contactme" id="contact-me">
-
-      <div class="contacts">
-        <h2>Contact Me</h2>
+      <div class="hero-image">
+        <p id="subtitle">Portfolio</p>
       </div>
 
-        <div class="comms">        
-            <a href="#">863-398-6147</a>
-            <a href="#">felix@website.com</a>
-            <a href="https://github.com/StygianTanuki">GitHub</a>
-            <a href="#">Twitter</a>         
+    <div class="container-aboutme sections">
+      <h2 id="about-me">About Me</h2>
+      <p> I am an up and coming coder that is constantly branching out my knowledge in order to deliver the best that I can. This portfolio is just a small bit of the knowledge that I have learned through my studies. 
+      </p>
+    </div>
+
+      <!--This is the work section of the page.-->
+    <main class="sections">
+      <h2 id="work-header">Work</h2>
+      <section>
+      <article>
+        <a href="https://github.com/StygianTanuki/SunnyPaws">
+        <div class="grid-item"  id="image-1">
+            <h3 class="text-on-picture">SunnyPaws</h3>
+          </a>
+          </div>
+      </article>
+
+      <article>
+        <div class="grid-item" id="image-2">
+          <a href="#ledwall"> 
+          <h3 class="text-on-picture">LED WALL</h3>
+          </a>
         </div>
+          <a href="#image-3">
+        <div class="grid-item" id="image-3">
+          <h3 class="text-on-picture">Calculator</h3>
+        </a>
+        </div>
+      </article>
 
+      <article>
+        <a href="#image-4">
+        <div class="grid-item" id="image-4">
+          <h3 class="text-on-picture">Pastel Puzzels</h3>
+        </a>
+        </div>
+        <a href="#image-5">
+        <div class="grid-item" id="image-5">
+          <h3 class="text-on-picture">Run Buddy</h3>
+          </a>
+        </div>
+      </article>
     </section>
-</main>
+    </main>
 
-    </body>
-
+          <!--This is the Contact Me section-->
+    <div class="sections">
+      <h2> Contact Me </h2>
+      <div class="footerNav">
+        <ul>
+          <li><a href ="https://www.linkedin.com/in/felix-rivera-340b0415a/">Linkedin</a></li>
+          <li><a href ="#555.555.5555">555.555.5555</a></li>
+          <li><a href ="https://github.com/StygianTanuki">Github</a></li>
+        </ul>  
+      </div>
+    </div>
+   
+  </body>
 </html>
